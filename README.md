@@ -1,74 +1,64 @@
-🎬 FilmFusion – Dynamic Scheduling and Booking Platform
+# 🎬 FilmFusion -- Dynamic Scheduling & Booking Platform
 
-FilmFusion is a Python-based multiplex scheduling and ticket booking application built using Tkinter. The platform provides an intuitive interface for theatre administrators to manage movies and revenue, while allowing users to browse movies, book seats, and track booking history.
-The system supports dynamic seat pricing based on movie ratings, offering a realistic simulation of real-world theatre operations.
+Welcome to **FilmFusion**, a Python-based multiplex scheduling and
+ticket booking system built using Tkinter. This project simulates
+real-world theatre operations by enabling administrators to manage
+movies and schedules while allowing users to book seats and track
+bookings.
 
-✨ Features
-👨‍💼 Admin Module
-    Add and manage movies
-    Schedule movie shows
-    View revenue collection and booking data
+------------------------------------------------------------------------
 
-🎟️ User Module
-    Browse available movies
-    Book seats across different seat categories
-    View booking history
-    Account-based login system
+## 📁 Contents
 
-💺 Seat Management
-    Multiple seat categories
-    Dynamic pricing based on movie ratings
+  File / Folder         Description
+  --------------------- ----------------------------------
+  `main.py`             Core application logic and GUI
+  `movies.csv`          Stores movie details and ratings
+  `users.csv`           Stores user account information
+  `past_bookings.csv`   Stores booking history
+  `README.md`           Project documentation
 
-🛠️ Tech Stack
-    Python 3
-    Tkinter (GUI)
-    Pillow (PIL) for image handling
-    CSV for persistent data storage
+------------------------------------------------------------------------
 
-📋 Prerequisites
-Ensure the following are installed before running the application:
-    Python 3.x
-    Tkinter (usually included with Python)
-    Pillow module
+## ✨ Features
 
-⚙️ Installation
+-   Admin panel for movie management and revenue tracking\
+-   User-friendly interface for browsing movies and booking seats\
+-   Multiple seat categories with dynamic pricing based on ratings\
+-   Persistent data storage using CSV files
 
-Clone the repository
-git clone https://github.com/HariniLV-3103/filmfusion.git
-cd filmfusion
+------------------------------------------------------------------------
 
-Install required dependencies
+## 🛠️ Tech Stack
+
+-   Python 3\
+-   Tkinter\
+-   Pillow (PIL)\
+-   CSV-based storage
+
+------------------------------------------------------------------------
+
+## ▶️ Getting Started
+
+``` bash
 pip install pillow
+python main.py
+```
 
-⚠️ Tkinter generally comes pre-installed with Python. If not, install it via your system package manager.
+> Ensure all CSV files are in the same directory as `main.py`.
 
-▶️ Usage
-Run the application using:
-    python main.py
+------------------------------------------------------------------------
 
-📁 File Structure
-main.py — Core application logic
-movies.csv — Stores movie details
-past_bookings.csv — Stores booking history
-users.csv — Stores user account credentials
+## 🔐 Login Details
 
-📌 All CSV files must be in the same directory as main.py.
+-   **Admin:** admin / admin\
+-   **User:** Credentials created during registration and stored in
+    `users.csv`
 
-🔐 Login Credentials
-Admin
-    Username: admin
-    Password: admin
+------------------------------------------------------------------------
 
-User
-    Credentials are created during account registration
-    Stored securely in users.csv
+## 🎯 Project Goal
 
-📝 Notes
-Seat categories and pricing logic can be modified in the SeatBooking class.
-Ensure all CSV files exist and are properly formatted before running the application.
-
-🚀 Future Enhancements
-    Database integration (MySQL / MongoDB)
-    Online payment simulation
-    Enhanced UI styling
-    Analytics dashboard for admins
+To design an efficient, user-friendly multiplex booking system that
+improves scheduling, pricing, and customer experience through
+automation.
