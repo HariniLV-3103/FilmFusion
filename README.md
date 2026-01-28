@@ -18,6 +18,9 @@ bookings.
   `past_bookings.csv`   Stores booking history
   `README.md`           Project documentation
 
+  The images used in the project are given as a separate folder inside Github
+  Paste them in your main folder before running the project.
+
 ------------------------------------------------------------------------
 
 ## ✨ Features
